@@ -1,8 +1,9 @@
 import React from 'react'
+import Body from './components/Body'
 
 const Page = () => {
   return (
-    <div>En desarrollo...</div>
+    <Body />
   )
 }
 
