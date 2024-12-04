@@ -15,6 +15,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 const sourGummy = Sour_Gummy({
+  subsets: ['latin'], // Define el subconjunto de caracteres
   weight: ['400', '700'], // Especifica los pesos que necesitas
 });
 
