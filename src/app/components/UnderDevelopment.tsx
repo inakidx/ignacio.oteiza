@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Body = () => {
+const UnderDevelopment = () => {
     return (
         <div className='flex w-dvw h-dvh flex-wrap justify-center items-center content-center'>
             <img src='yopeFine.jpeg' className='border-4 border-gray-400 rounded-full h-3/5 float-left aspect-square' />
@@ -13,4 +13,4 @@ const Body = () => {
     )
 }
 
-export default Body
+export default UnderDevelopment

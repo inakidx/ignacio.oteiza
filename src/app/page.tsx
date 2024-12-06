@@ -1,9 +1,9 @@
 import React from 'react'
-import Body from './components/Body'
+import Home from './components/Home'
 
 const Page = () => {
   return (
-    <Body />
+    <Home />
   )
 }
 
