@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Caveat, Sour_Gummy } from 'next/font/google';
+import { Sour_Gummy, Ubuntu } from 'next/font/google';
 import Header from "./components/Header";
 // import Header from "./components/Header";
 
-// const sourGummy = Sour_Gummy({
-//   subsets: ['latin'],
-//   weight: ['400', '700'],
-// });
+const sourGummy = Sour_Gummy({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+});
 
-const caveat = Caveat({
+const ubuntu = Ubuntu({
   subsets: ['latin'],
   weight: ['400', '700'],
 });
@@ -26,7 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${caveat.className} antialiased`}>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
+      <body className={`${ubuntu.className} antialiased`}>
         <Header />
         {children}
       </body>
