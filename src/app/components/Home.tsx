@@ -4,9 +4,12 @@ import Introduction from './Introduction'
 
 const Home = () => {
     return (
-        <div className='p-8 pt-24 flex flex-wrap h-full relative'>
-            <Perfil />
-            <Introduction/>
+        <div className='p-8 lg:pt-24 flex flex-wrap flex-row justify-center'>
+            <div className='relative bg-gray-50 flex flex-wrap justify-center p-5
+             lg:p-16 shadow-xl'>
+                <Perfil />
+                <Introduction />
+            </div>
         </div>
     )
 }
