@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import profilePicture from '../../../public/perfil.png'
 
 const Perfil = () => {
     return (
@@ -7,7 +8,7 @@ const Perfil = () => {
         flex flex-col lg:items-end items-center'>
             <div className='flex flex-col items-center bg-gray-300 rounded-3xl'>
                 {/* <div className='rounded-full aspect-square bg-blue-400 w-48 h-48 lg:w-96 lg:h-96 mt-5'></div> */}
-                <Image className='w-48 lg:w-96 mt-5' src='perfil.png' alt='Picture of the author'/>
+                <Image className='w-48 lg:w-96 mt-5' src={profilePicture} alt='Picture of the author' />
                 <div className='mt-6  lg:mx-16 text-lg lg:text-4xl font-medium'>
                     Ignacio Oteiza Solchaga
                 </div>
