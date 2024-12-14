@@ -34,7 +34,7 @@ export default {
   },
   plugins: [
     typography,
-    plugin(function ({ addUtilities }) {
+    plugin(function () {
       Object.values(delayValues).map(value => ({
         [`animation-delay-${value}`]: {
           animationDelay: value,
