@@ -9,11 +9,11 @@ const Introduction = () => {
                     ¡Hello there!
                 </h2>
                 <p>
-                    Welcome to my site, my name is Ignacio Oteiza Solchaga and here you'll find
+                    My name is <b>Ignacio Oteiza Solchaga</b> and here you'll find
                     every relevant job-related information about me.
                 </p>
                 <p>
-                    I'm a really pasionated Full-stack software engenieer, mainly focused on web developing
+                    I'm a really pasionated full stack software engenieer, mainly focused on web developing
                     although native developing is one of my strengths as well.
                 </p>
             </div>
