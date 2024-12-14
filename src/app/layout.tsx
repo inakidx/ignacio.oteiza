@@ -3,10 +3,6 @@ import "./globals.css";
 import { Sour_Gummy, Ubuntu } from 'next/font/google';
 // import Header from "./components/Header";
 
-const sourGummy = Sour_Gummy({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-});
 
 const ubuntu = Ubuntu({
   subsets: ['latin'],
