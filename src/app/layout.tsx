@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Sour_Gummy, Ubuntu } from 'next/font/google';
+import { Ubuntu } from 'next/font/google';
 // import Header from "./components/Header";
 
 
