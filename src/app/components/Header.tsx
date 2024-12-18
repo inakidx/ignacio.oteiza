@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <div className="w-full pt-3 p-2">
-                <div className='w-full flex items-center justify-between bg-red-400 rounded-lg'>
+                <div className='w-full flex items-center justify-between rounded-lg bg-gradient-to-tl from-gray-400 to-gray-300'>
                     <div className='flex-1 box-border'>
                         <h1 className='pl-4 lg:pl-10 p-5 text-xl lg:text-6xl font-medium'>Ignacio Oteiza Solchaga</h1>
                     </div>

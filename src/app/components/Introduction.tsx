@@ -9,7 +9,7 @@ const Introduction = () => {
                     ¡Hello there!
                 </h2>
                 <p>
-                    My name is <b>Ignacio Oteiza Solchaga</b> and here you&apos;ll find
+                    Welcome to my site, here you&apos;ll find
                     every relevant job-related information about me.
                 </p>
                 <p>
