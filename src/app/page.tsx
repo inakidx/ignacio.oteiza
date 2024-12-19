@@ -1,16 +1,18 @@
 import React from 'react'
-import Home from './components/Home'
+import About from './components/About'
 import Header from './components/Header'
 import Trayectory from './components/Trayectory'
+import Proyects from './components/Proyects'
 
 const Page = () => {
   return (
     <div>
       <div className='lg:h-dvh'>
         <Header />
-        <Home />
+        <About />
       </div>
       <Trayectory />
+      <Proyects />
     </div>
   )
 }
