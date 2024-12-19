@@ -6,7 +6,7 @@ import Trayectory from './components/Trayectory'
 const Page = () => {
   return (
     <div>
-      <div className='h-dvh'>
+      <div className='lg:h-dvh'>
         <Header />
         <Home />
       </div>
