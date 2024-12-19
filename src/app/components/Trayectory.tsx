@@ -25,7 +25,7 @@ const trayectorys: TrayectoryItem[] = [
 const Trayectory = () => {
     return (
         <div className='flex justify-center pb-20'>
-            <div className='bg-gray-50 py-20 lg:w-3/4 shadow-xl'>
+            <div className='bg-gray-50 py-20 lg:w-3/5 shadow-xl'>
                 <div className='pb-20 flex items-center flex-col w-full'>
                     <h2 className='lg:mx-14 text-xl lg:text-4xl pb-5'>TRAYECTORY</h2>
                     <hr className='w-3/4' />
