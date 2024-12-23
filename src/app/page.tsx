@@ -1,5 +1,4 @@
 'use client'
-import React, { Suspense } from 'react'
 import About from './components/About'
 import Header from './components/Header'
 import UnderDevelopment from './components/UnderDevelopment'
@@ -14,7 +13,6 @@ const Page = () => {
   const showBLur = process.env.NODE_ENV != 'development' && !paramVisible;
   return (
     <div>
-      <Suspense fallback={<p>Cargando...</p>}>
         <div className='absolute z-10'>
           <UnderDevelopment />
         </div>
@@ -26,7 +24,6 @@ const Page = () => {
           <Trayectory />
           <Proyects />
         </div>
-      </Suspense>
     </div>
   )
 }

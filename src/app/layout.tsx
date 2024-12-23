@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Ubuntu } from 'next/font/google';
+import { Suspense } from "react";
 
 
 const ubuntu = Ubuntu({
@@ -24,7 +25,10 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={`${ubuntu.className} antialiased`}>
-        {children}
+
+        <Suspense fallback={<p>Cargando...</p>}>
+          {children}
+        </Suspense>
       </body>
     </html>
   );
