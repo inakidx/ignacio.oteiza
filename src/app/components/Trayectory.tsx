@@ -11,7 +11,7 @@ const trayectorys: TrayectoryItem[] = [
     {
         titulo: "Master of IT engineer",
         date: "2018 - 2020",
-        description: "After ending the career i wanted to improve my IT knowledge, however i was looking forward to take a joib as well "
+        description: "After ending the career i wanted to improve my IT knowledge, however i was looking forward to take a job as well "
             + "so, applying to Tracasa and the Master of IT engineer at UPNA was my choice.",
     },
     {
