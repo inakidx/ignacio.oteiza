@@ -1,6 +1,5 @@
 import React from 'react'
 import { ProyectItem } from '../types/ProyectItem'
-import yopeFine from '../../../public/yopeFine.jpeg'
 import Image from 'next/image'
 
 const proyectList: ProyectItem[] = [
@@ -8,13 +7,13 @@ const proyectList: ProyectItem[] = [
         title: "StackUp 3D",
         tecnology: "Unity",
         description: "This project was my final degree project. It is a game which is about building structures, using your own hands as the controller with the kinect. The game is made to improve your body coordination. It aims to simulate a real behavior by playing with simple figures, where the goal is to build a specific more complex structure carefully, without make it fall. The game has different levels with different difficulty, so they can have a good time while playing.",
-        image: yopeFine
+        imagePath: "yopeFine.jpeg"
     },
     {
         title: "Voxels 3D",
         tecnology: "Unity",
         description: "Bla bla",
-        image: yopeFine
+        imagePath: "yopeFine.jpeg"
     },
 
 ]
@@ -37,7 +36,10 @@ const Proyects = () => {
                                 {p.description}
                             </p>
                         </div>
-                        <Image className='p-5 lg:p-0 lg:w-1/2' src={p.image} alt='Picture of the proyect' />
+                        <Image className='p-5 lg:p-0 lg:w-1/2' src={p.imagePath} alt='Picture of the proyect'
+                            layout="intrinsic"
+                            width={50}
+                            height={50} />
                     </div>
                 )}
             </div>
