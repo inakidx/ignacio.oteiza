@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Ubuntu } from 'next/font/google';
-// import Header from "./components/Header";
 
 
 const ubuntu = Ubuntu({
