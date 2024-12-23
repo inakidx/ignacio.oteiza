@@ -36,7 +36,7 @@ const Proyects = () => {
                                 {p.description}
                             </p>
                         </div>
-                        <Image className='p-5 lg:p-0 lg:w-1/2' src={p.imagePath} alt='Picture of the proyect'
+                        <Image className='p-5 lg:p-0 w-full lg:w-1/2' src={p.imagePath} alt='Picture of the proyect'
                             layout="intrinsic"
                             width={50}
                             height={50} />

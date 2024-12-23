@@ -38,7 +38,7 @@ const Trayectory = () => {
                                 <h3 className='font-bold text-gray-500'>{trayectory.titulo}</h3>
                                 <span className='text-gray-500'>{trayectory.date}</span>
                             </div>
-                            <div className='text-3xl lg:text-5xl z-10 self-start'>
+                            <div className='text-3xl lg:text-5xl self-start' style={{ zIndex: "1" }}>
                                 🔸
                             </div>
                             <div className='w-2/5 text-sm lg:w-1/4 lg:text-3xl text-gray-700'>
@@ -49,7 +49,7 @@ const Trayectory = () => {
                     <div className='absolute h-full bg-gray-500 w-0.5 rounded-full opacity-80'></div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
