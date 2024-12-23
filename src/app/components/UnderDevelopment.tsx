@@ -4,7 +4,7 @@ import { useSearchParams } from "next/navigation";
 const UnderDevelopment = () => {
     const searchParams = useSearchParams();
     const paramVisible = searchParams.get("visible");
-    const showBLur = process.env.NODE_ENV != 'production' && !paramVisible;
+    const showBLur = process.env.NODE_ENV != 'development' && !paramVisible;
     return (
         <div className={`${showBLur ? 'flex' : 'hidden'} w-dvw h-dvh flex-wrap justify-center items-center content-center fixed z-50`}>
             <Image src="yopeFine.jpeg" alt='Picture cartoon of the author'
