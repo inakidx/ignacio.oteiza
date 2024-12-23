@@ -7,8 +7,7 @@ const proyectList: ProyectItem[] = [
     {
         title: "StackUp 3D",
         tecnology: "Unity",
-        description: "Proyect of the career of Engineer of IT. Made with unity using"
-            + " the Kinect. It is a serious game to train your mobility.",
+        description: "This project was my final degree project. It is a game which is about building structures, using your own hands as the controller with the kinect. The game is made to improve your body coordination. It aims to simulate a real behavior by playing with simple figures, where the goal is to build a specific more complex structure carefully, without make it fall. The game has different levels with different difficulty, so they can have a good time while playing.",
         image: yopeFine
     },
     {
@@ -23,7 +22,7 @@ const proyectList: ProyectItem[] = [
 const Proyects = () => {
     return (
         <div className='flex justify-center pb-20'>
-            <div className='bg-gray-50 py-20 lg:w-2/5 shadow-xl flex items-center flex-col p-5 lg:p-16'>
+            <div className='bg-gray-50 py-20 lg:w-3/5 shadow-xl flex items-center flex-col p-5 lg:p-16'>
                 <div className='pb-20 flex items-center flex-col w-full'>
                     <h2 className='lg:mx-14 text-xl lg:text-4xl pb-5'>PROJECTS</h2>
                     <hr className='w-3/4' />
