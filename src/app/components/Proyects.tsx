@@ -29,10 +29,10 @@ const Proyects = () => {
                 {proyectList.map(p =>
                     <div key={p.title} className='flex flex-col content-center flex-wrap lg:flex-row
                      bg-gray-200 items-center mb-16 w-full shadow-xl'>
-                        <div className='flex flex-col lg:w-1/2 self-start items-center mt-8 lg:mt-14'>
+                        <div className='flex flex-col lg:w-1/2 lg:self-start items-center mt-8 lg:mt-14'>
                             <h3 className='text-2xl lg:text-4xl font-bold lg:mb-3'>{p.title}</h3>
                             <h4 className='lg:text-2xl lg:mb-8'>Made with: {p.tecnology}</h4>
-                            <p className='px-10 lg:text-2xl'>
+                            <p className='px-10 lg:text-2xl lg:self-start'>
                                 {p.description}
                             </p>
                         </div>

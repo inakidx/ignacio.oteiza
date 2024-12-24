@@ -17,7 +17,7 @@ const Page = () => {
           <UnderDevelopment />
         </div>
         <div className={showBLur ? 'blur' : ''}>
-          <div className='lg:h-dvh'>
+          <div className='h-dvh'>
             <Header />
             <About />
           </div>
